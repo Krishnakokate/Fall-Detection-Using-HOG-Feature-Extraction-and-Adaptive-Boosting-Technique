@@ -6,31 +6,31 @@ This project aims to develop a reliable and accurate fall detection system using
 
 ## Dataset
 
-The Fall Detection Dataset from Kaggle is used for training and testing. The dataset comprises accelerometer and gyroscope measurements collected from a smartphone worn by subjects during activities like walking, standing, sitting, and falling. [Link to Dataset](https://www.kaggle.com/datasets/uttejkumarkandagatl/fall-detection-dataset)
+The Fall Detection Dataset from Kaggle is used for training and testing. The dataset comprises accelerometer and gyroscope measurements collected from a kaggle  by subjects during activities like walking, standing, sitting, and falling.
 
 ## Methodology
 
 1. **Data Collection and Preprocessing:**
    - Video clips of simulated falls and non-falls are processed to extract frames and convert them into grayscale images.
    - Image dataset is cleaned, resized, normalized, and augmented for effective model training.
-
-2. **Feature Extraction using HOG:**
+2. **Exploratory Data Analysis (EDA):**
+   - Conducted EDA on the dataset to understand its characteristics and distributions.
+3. **Feature Extraction using HOG:**
    - HOG technique is employed to analyze the distribution of edge orientations in each image.
    - Image gradients, magnitude, orientation, histograms, block normalization, and descriptor calculation are performed.
 
-3. **Classification Algorithm (Ensemble Learning Boosting):**
+4. **Classification Algorithm (Ensemble Learning Boosting):**
    - Logistic Regression, Decision Tree, SVM Classifier, and KNN are utilized as individual classifiers.
    - Ensemble learning Boosting is applied to combine predictions from multiple classifiers.
 
-4. **Cross-Validation:**
+5. **Cross-Validation:**
    - Model effectiveness is assessed using cross-validation, calculating accuracy, recall, precision, and F1 score.
 
-5. **Model Evaluation and Results:**
+6. **Model Evaluation and Results:**
    - Trained models (Decision Tree, Logistic Regression, SVM, KNN, and Adaptive Boosting) are tested and compared using accuracy scores.
    - Confusion matrix is generated to analyze model performance.
 
-6. **Exploratory Data Analysis (EDA):**
-   - Conducted EDA on the dataset to understand its characteristics and distributions.
+
 
 ## Usage
 
