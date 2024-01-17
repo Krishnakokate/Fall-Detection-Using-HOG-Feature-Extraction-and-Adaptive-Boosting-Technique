@@ -1,4 +1,4 @@
-# Fall Detection System
+# Fall Detection Using HOG Feature Extraction and Adaptive Boosting Technique
 
 ## Overview
 
