@@ -66,5 +66,5 @@ The Fall Detection Dataset from Kaggle is used for training and testing. The dat
    root_dir = '/content/drive/MyDrive/dataset'
   
 6. Run the main script:
-
+   ```bash
    Fall_Detection.ipynb
